@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cd53d2a4.chunk.css",
+    "main.js": "/static/js/main.ec3b0849.chunk.js",
+    "main.js.map": "/static/js/main.ec3b0849.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.605f61ba.js",
+    "runtime-main.js.map": "/static/js/runtime-main.605f61ba.js.map",
+    "static/css/2.fb92a525.chunk.css": "/static/css/2.fb92a525.chunk.css",
+    "static/js/2.ec97d92c.chunk.js": "/static/js/2.ec97d92c.chunk.js",
+    "static/js/2.ec97d92c.chunk.js.map": "/static/js/2.ec97d92c.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a8193f158b8b30700ca783da85495e41.js": "/precache-manifest.a8193f158b8b30700ca783da85495e41.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.fb92a525.chunk.css.map": "/static/css/2.fb92a525.chunk.css.map",
+    "static/css/main.cd53d2a4.chunk.css.map": "/static/css/main.cd53d2a4.chunk.css.map",
+    "static/js/2.ec97d92c.chunk.js.LICENSE.txt": "/static/js/2.ec97d92c.chunk.js.LICENSE.txt",
+    "static/media/bkk.jpg": "/static/media/bkk.0c8d2d24.jpg",
+    "static/media/chaingmai.jpg": "/static/media/chaingmai.dc692a60.jpg",
+    "static/media/krabi.jpeg": "/static/media/krabi.6452beab.jpeg",
+    "static/media/logo_transparent.png": "/static/media/logo_transparent.24a96c01.png",
+    "static/media/phuket.jpg": "/static/media/phuket.26d03af2.jpg",
+    "static/media/songkhla.jpeg": "/static/media/songkhla.a94fa39f.jpeg",
+    "static/media/ubon.jpeg": "/static/media/ubon.3798b99a.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.605f61ba.js",
+    "static/css/2.fb92a525.chunk.css",
+    "static/js/2.ec97d92c.chunk.js",
+    "static/css/main.cd53d2a4.chunk.css",
+    "static/js/main.ec3b0849.chunk.js"
+  ]
+}

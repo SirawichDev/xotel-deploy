@@ -1,0 +1,31 @@
+{
+  "name": "xotel-deploy",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": "12.16.2"
+  },
+  "dependencies": {
+    "@google/maps": "^1.1.3",
+    "@googlemaps/google-maps-services-js": "^3.1.6",
+    "apollo-server-express": "^2.14.3",
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.22.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.5",
+    "cross-env": "^7.0.2",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "googleapis": "^52.1.0",
+    "graphql": "^15.1.0",
+    "lodash.merge": "^4.6.2",
+    "mongodb": "^3.5.9",
+    "stripe": "^8.89.0"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
