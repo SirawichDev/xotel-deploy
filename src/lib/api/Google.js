@@ -10,11 +10,6 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Google = void 0;
-if (process.env.NODE_ENV !== "production") {
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    require("dotenv").config({ path: "dev.env" });
-}
-require("dotenv").config({ path: "prod.env" });
 const googleapis_1 = require("googleapis");
 const google_maps_services_js_1 = require("@googlemaps/google-maps-services-js");
 const maps = new google_maps_services_js_1.Client({});

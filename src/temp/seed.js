@@ -9,11 +9,6 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-if (process.env.NODE_ENV !== "production") {
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    require("dotenv").config({ path: "dev.env" });
-}
-require("dotenv").config({ path: "prod.env" });
 const mongodb_1 = require("mongodb");
 const database_1 = require("../database");
 const types_1 = require("../lib/types");

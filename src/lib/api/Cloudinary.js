@@ -15,11 +15,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.Cloudinary = void 0;
 const cloudinary_1 = __importDefault(require("cloudinary"));
 const process_1 = __importDefault(require("process"));
-if (process_1.default.env.NODE_ENV !== "production") {
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    require("dotenv").config({ path: "dev.env" });
-}
-require("dotenv").config({ path: "prod.env" });
 exports.Cloudinary = {
     upload: (image) => __awaiter(void 0, void 0, void 0, function* () {
         const res = yield cloudinary_1.default.v2.uploader.upload(image, {

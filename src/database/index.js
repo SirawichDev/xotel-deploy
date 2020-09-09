@@ -10,7 +10,6 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.connectDatabase = void 0;
-require('dotenv').config({ path: 'prod.env' });
 const mongodb_1 = require("mongodb");
 const url = process.env.DB_URL;
 exports.connectDatabase = () => __awaiter(void 0, void 0, void 0, function* () {
