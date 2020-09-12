@@ -11,16 +11,18 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.connectDatabase = void 0;
 const mongodb_1 = require("mongodb");
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+// require("dotenv").config(".env");
 const url = process.env.DB_URL;
 exports.connectDatabase = () => __awaiter(void 0, void 0, void 0, function* () {
     const client = yield mongodb_1.MongoClient.connect(url, {
         useNewUrlParser: true,
-        useUnifiedTopology: true
+        useUnifiedTopology: true,
     });
     const db = client.db("xotel");
     return {
-        users: db.collection('users'),
-        listings: db.collection('listings'),
-        bookings: db.collection('bookings')
+        users: db.collection("users"),
+        listings: db.collection("listings"),
+        bookings: db.collection("bookings"),
     };
 });

@@ -73,7 +73,16 @@ exports.listingResovers = {
                     const adminText = admin ? `${admin}, ` : "";
                     data.region = `${cityText}${adminText}${country}`;
                 }
-                let cursor = yield db.listings.find(query);
+                let cursor = data.region !== null
+                    ? yield db.listings.find({
+                        $or: [
+                            {
+                                city: { $regex: query.city || "" },
+                            },
+                            { admin: { $regex: query.admin || "" } },
+                        ],
+                    })
+                    : yield db.listings.find(query);
                 if (filter && filter === types_2.ListingsFilter.PRICE_LOW_TO_HIGH) {
                     cursor = cursor.sort({ price: 1 });
                 }

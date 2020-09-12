@@ -19,6 +19,8 @@ const apollo_server_express_1 = require("apollo-server-express");
 const graphql_1 = require("./graphql");
 const database_1 = require("./database");
 const body_parser_1 = __importDefault(require("body-parser"));
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+// require("dotenv").config(".env");
 // Production ถ้าจะดู playground
 // playground: {
 //     settings: {
